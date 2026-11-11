@@ -41,29 +41,6 @@ An end-to-end data analytics portfolio project using **Python, SQL, and Power BI
 - Toss winner also won **51.57%** of matches with a recorded winner.
 - Run rates: Powerplay **7.97**, Middle **7.87**, Death **10.02** runs per over.
 
-These are descriptive results calculated from the provided files, not predictive claims.
-
-## Run the project
-
-### Python
-1. Extract the project folder.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Open a terminal in `Python/` and launch `jupyter notebook`.
-4. Open `ipl_analysis.ipynb` and run all cells.
-
-### PostgreSQL
-1. Create a database, e.g. `ipl_analytics`.
-2. Import `Dataset/matches_cleaned.csv` into `matches_cleaned`.
-3. Import `Dataset/deliveries_cleaned.csv` into `deliveries_cleaned`.
-4. Execute `SQL/ipl_analysis.sql`.
-
-### Power BI
-1. Import both cleaned CSVs.
-2. Create a one-to-many relationship from `matches_cleaned[match_id]` to `deliveries_cleaned[match_id]`.
-3. Add measures from `PowerBI/measures.dax`.
-4. Follow `PowerBI/dashboard_build_guide.md` and import `PowerBI/ipl_theme.json`.
-5. Use `PowerBI/IPL_Dashboard_Preview.pdf` as the layout reference. The PDF is a static preview, not a `.pbix` file.
-
 ## Important caveats
 
 - Historical team names are kept as recorded. Rebrands (for example, Delhi Daredevils/Delhi Capitals and Kings XI Punjab/Punjab Kings) are not automatically merged. Build and document a franchise mapping if you want franchise-era comparisons.
