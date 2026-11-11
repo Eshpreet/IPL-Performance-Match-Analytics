@@ -1,6 +1,6 @@
 # IPL Performance & Match Analytics (2008–2025)
 
-An end-to-end data analytics portfolio project using **Python, PostgreSQL, and Power BI**. It explores IPL team performance, player batting and bowling, match outcomes, toss trends, venues, and scoring phases using the supplied match-level and ball-by-ball datasets.
+An end-to-end data analytics portfolio project using **Python, SQL, and Power BI**. It explores IPL team performance, player batting and bowling, match outcomes, toss trends, venues, and scoring phases using the supplied match-level and ball-by-ball datasets.
 
 ## Project snapshot
 
